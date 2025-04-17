@@ -10,9 +10,9 @@ interface Props {
 export const Search: React.FC<Props> = (props) => {
     const { className } = props;
     return (
-        <label className={cn("flex items-center gap-2 bg-gray-100", className)} >
-            <SearchIcon size= {16}/>
-            <Input placeholder='Поиск пиццы...' />
+        <label className={cn("flex items-center gap-1 bg-gray-100 p-x-2", className)} >
+            <SearchIcon size= {16} className='text-gray-400'/>
+            <Input className='border-0' placeholder='Поиск пиццы...' />
         </label>
     );
 }
