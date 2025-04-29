@@ -4,13 +4,13 @@ import "./globals.css";
 
 const nunito = Nunito({
   variable: "--font-nunito",
-  subsets: ["latin", "cyrilic"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  subsets: ["latin","cyrillic"],
+  weight: ["400","500","600","700","800","900"],
   display: "swap"
 });
 
 export const metadata: Metadata = {
-  title: "Next-pizza",
+  title: "Next Pizza",
   description: "вкусней уже некуда",
 };
 
