@@ -4,7 +4,10 @@ import { Input, Title } from "./ui";
 import { FilterCheckbox } from "./filter-checkbox";
 import { Ingredients } from "./ingredients";
 import { PriceSlider } from "./price-slider";
+<<<<<<< HEAD
 import { cn } from "@/lib/utils";
+=======
+>>>>>>> e30d10096888b2ead7692d458102fd67070bca50
 
 interface Props {
   className?: string;
@@ -42,7 +45,11 @@ const ingredients = [
 export const Filters: React.FC<Props> = (props) => {
   const { className } = props;
   return (
+<<<<<<< HEAD
     <div className={cn("sticky top-0", className)}>
+=======
+    <div className={className}>
+>>>>>>> e30d10096888b2ead7692d458102fd67070bca50
       <Title className="mb-5" size={"m"} text={"Фильтрация"} />
       <div className="flex flex-col gap-2">
         <FilterCheckbox

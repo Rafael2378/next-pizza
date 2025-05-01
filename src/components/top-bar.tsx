@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { Container } from "@/components/ui";
 import { Categories, SortPopup } from "@/components";
@@ -20,3 +21,24 @@ export const TopBar: React.FC<Props> = (props) => {
     </div>
   );
 };
+=======
+import React from 'react';
+import { Container } from '@/components/ui';
+import { Categories, SortPopup } from '@/components';
+
+interface Props {
+     className?: string;
+}
+
+export const TopBar: React.FC<Props> = (props) => {
+     const {className} = props;
+     return (
+        <div className={className}>
+            <Container className='flex items-center justify-between'>
+                <Categories />
+                <SortPopup />               
+            </Container>
+        </div>
+    );
+}
+>>>>>>> e30d10096888b2ead7692d458102fd67070bca50
